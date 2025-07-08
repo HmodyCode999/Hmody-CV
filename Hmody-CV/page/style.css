@@ -1,0 +1,100 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    min-height: 100vh;
+    background-color: rgb(34, 34, 34);
+    color: #fafffd;
+    font-family: monospace;
+    position: relative;
+}
+.container {
+    display: flex;
+    gap: 0px;
+    max-width: 1000px;
+    width: 100%;
+    gap: 1px;
+    padding: 1px;
+    position: relative;
+    z-index: 1;
+    margin-top: 30px;
+}
+pre {
+    margin: 0;
+    padding: 0;
+    white-space: pre-wrap;
+}
+.box {
+    display: block;
+    margin: 0;
+    padding: 0;
+}
+.run-link {
+    display: inline-block; 
+    border-radius: 4px;
+    padding-top: 6px;
+    transition: background-color 0.5s;
+    margin-left: 150px;
+}
+.run-link:hover {
+    background-color: rgb(191, 201, 189); 
+}
+html, body {
+    overflow-x: auto;
+}
+
+
+
+
+.left {
+    width: 24%;
+    position: relative;
+}
+.right {
+    width: 50%;
+}
+.comment {
+    color: rgb(30, 114, 14);
+}
+
+.keyword {
+    color: rgb(62, 80, 85);
+}
+
+.class {
+    color: rgb(69, 135, 123);
+}
+
+.syntax {
+    color: rgb(100, 76, 66);
+}
+
+.pipe {
+    color: rgb(255, 255, 255);
+}
+
+.avater {
+    margin-left: 30px; 
+    border: 2px solid rgb(52, 64, 68);
+}
+
+.txt {
+    color: rgb(255, 255, 255);
+    margin-left: -270px;
+    margin: -13px;
+    margin-left: -270px;
+}
+.end {
+    position: absolute;
+    bottom: 10;
+    left: 0;
+    right: 0;
+    color: rgb(41, 157, 18);
+    padding: 10px;
+    text-align: center;
+}
+
+
+
+
+
